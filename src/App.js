@@ -3,11 +3,13 @@ import './App.css';
 import Form from './Form';
 import LifecyleA from './components/LifecycleA';
 import LifeA from './components/LifeA';
+import NameList from './components/NameList';
 
 function App() {
   return (
     <div className="App">
-      <LifeA></LifeA>
+      <NameList/>
+      {/* <LifeA></LifeA> */}
       {/* <Form/> */}
       {/* <LifecyleA/> */}
     </div>
