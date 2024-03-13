@@ -6,12 +6,16 @@ import LifeA from './components/LifeA';
 import NameList from './components/NameList';
 import Fragment from './components/Fragment';
 import Table from './components/Table';
+import FragmentR from './components/FragmentR';
+import TableR from './components/TableR';
 
 function App() {
   return (
   
     <div className="App">
-        <Table/>
+      <TableR></TableR>
+      {/* <FragmentR></FragmentR> */}
+        {/* <Table/> */}
       {/* <Fragment/> */}
       {/* <NameList/> */}
       {/* <LifeA></LifeA> */}
