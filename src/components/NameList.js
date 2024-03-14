@@ -28,4 +28,5 @@ function NameList(){
     return <div>{namesList}</div>
 
 }
+
 export default NameList
