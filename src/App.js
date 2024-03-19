@@ -9,12 +9,15 @@ import Table from './components/Table';
 import FragmentR from './components/FragmentR';
 import TableR from './components/TableR';
 import ParentC from './components/ParentC';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
   
     <div className="App">
-      <ParentC></ParentC>
+
+      <RefsDemo></RefsDemo>
+      {/* <ParentC></ParentC> */}
       {/* <TableR></TableR> */}
       {/* <FragmentR></FragmentR> */}
         {/* <Table/> */}
